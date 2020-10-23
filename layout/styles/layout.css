@@ -58,6 +58,13 @@ File: Layout CSS
 #introblocks ul li div i{display:block; position:absolute; top:-2px; left:0; width:50px; font-size:46px; line-height:1;}
 #introblocks ul li div .heading{font-size:1.2rem;}
 
+.heading{
+	color: black;
+}
+.heading-text{
+	color: black;
+}
+
 
 /* Content Area
 --------------------------------------------------------------------------------------------------------------- */
@@ -75,6 +82,10 @@ File: Layout CSS
 .intro article .excerpt{padding:20px;}
 .intro article .excerpt *{margin:0 0 10px 0;}
 .intro article .excerpt footer{margin:0;}
+
+.hoc{
+	background-color: white;
+}
 
 .cta{}
 .cta footer{margin-bottom:0;}/* Used when elements stack in small viewports */
