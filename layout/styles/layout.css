@@ -84,7 +84,7 @@ File: Layout CSS
 .intro article .excerpt footer{margin:0;}
 
 .hoc{
-	background-color: white;
+	background-color: rgb(228, 79, 79);
 }
 
 .cta{}
@@ -271,7 +271,8 @@ hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
 input:focus, textarea:focus, *:required:focus{border-color:#00CCBD;}
 .overlay{color:#FFFFFF; background-color:inherit;}
-.overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
+/* .overlay::after{color:inherit; background-color:rgba(0,0,0,.55);} */
+.overlay::after{color:inherit; background-color:black;}
 
 .btn, .btn.inverse:hover, a .icon.fa, a.inverse:hover .icon.fa{color:#FFFFFF; background-color:#00CCBD; border-color:#00CCBD;}
 .btn:hover, .btn.inverse, a:hover .icon.fa, a.inverse .icon.fa{color:inherit; background-color:transparent; border-color:inherit;}
@@ -279,7 +280,8 @@ input:focus, textarea:focus, *:required:focus{border-color:#00CCBD;}
 
 /* Rows */
 .row1{color:#474747;}
-.row2{color:#474747; background-color:#F6F6F6;}
+/* .row2{color:#474747; background-color:#F6F6F6;} */
+.row2{color:#474747; background-color:#696969;}
 .row3{color:#474747; background-color:#FFFFFF;}
 .row4{color:#CBCBCB; background-color:#272727;}
 .row5, .row5 a{color:#474747; background-color:#FFFFFF;}
