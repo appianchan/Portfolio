@@ -31,7 +31,7 @@ File: Layout CSS
 #header{padding:0 15px;}
 
 #header #logo{margin:28px 0 0 0;}
-#header #logo h1{margin:0; padding:0; font-size:22px; text-transform:uppercase;}
+#header #logo h1{margin:0; padding:0; font-size:22px;}
 
 
 /* Page Intro
@@ -39,7 +39,7 @@ File: Layout CSS
 #pageintro{padding:50px 0;}
 
 #pageintro article{max-width:65%; margin:0 auto; text-align:center;}
-#pageintro article *{text-transform:uppercase;}
+/* #pageintro article *{text-transform:uppercase;} */
 #pageintro article .heading{margin:0 0 10px 0; padding:0; line-height:1; font-size:38px;}
 #pageintro article p{margin:0;}
 #pageintro article p:first-of-type{margin-bottom:20px; font-size:16px; letter-spacing:5px;}
